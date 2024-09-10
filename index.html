@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js的三种引用方式</title>
+</head>
+<body>
+    <p style="text-align: center;">第一种：行内式（标签所在行）</p>
+    <input type="button" value="点击我" onclick="alert('hello,world')">
+    <a herf="javascrip:alert('第一种方式引入')">点击我</a>
+
+    <h2 style="text-align: center;">第二种方式:内嵌式（内嵌HTML5文档中）</h2>
+    <script>
+        console.log('第二种方法引入')
+    </script>
+
+    <div style="text-align: center;">第三种：外链式（通过js链接进来）</div>
+    <script type="text/javascrip" src="text.js"></script>
+</body>
+</html>
